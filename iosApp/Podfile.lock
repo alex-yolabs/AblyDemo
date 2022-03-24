@@ -1,0 +1,31 @@
+PODS:
+  - Ably (1.2.10):
+    - AblyDeltaCodec (= 1.3.2)
+    - msgpack (= 0.4.0)
+  - AblyDeltaCodec (1.3.2)
+  - msgpack (0.4.0)
+  - shared (1.0):
+    - Ably
+
+DEPENDENCIES:
+  - shared (from `../shared`)
+
+SPEC REPOS:
+  trunk:
+    - Ably
+    - AblyDeltaCodec
+    - msgpack
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "../shared"
+
+SPEC CHECKSUMS:
+  Ably: 80be962e2e87bac69727a26ba72b868c8e86288e
+  AblyDeltaCodec: 783d017270de70bbbc0a84e4235297b225d33636
+  msgpack: c85f6251873059738472ae136951cec5f30f3251
+  shared: f2255b7ea9f742638f3ff2d04b0e751e761c015f
+
+PODFILE CHECKSUM: f282da88f39e69507b0a255187c8a6b644477756
+
+COCOAPODS: 1.10.1
